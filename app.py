@@ -53,10 +53,10 @@ def main():
 
             loaded_model = load_model('prediction.pkl')
             prediction = loaded_model.predict(single_pred)
-            write('''
+            st.write('''
 		    ## Results 🔍 
 		    ''')
-            success(f"{prediction.item().title()} are recommended crop for your farm.")
+            st.success(f"{prediction.item().title()} are recommended crop for your farm.")
       #code for html ☘️ 🌾 🌳 👨‍🌾  🍃
 
     
