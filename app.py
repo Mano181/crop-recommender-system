@@ -49,7 +49,7 @@ def main():
     feature_list = [N, P, K, temp, humidity, ph, rainfall]
     single_pred = np.array(feature_list).reshape(1,-1)
         
-   if st.button('Predict'):
+    if st.button('Predict'):
 
             loaded_model = load_model('prediction.pkl')
             prediction = loaded_model.predict(single_pred)
