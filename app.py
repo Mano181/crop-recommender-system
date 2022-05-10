@@ -21,7 +21,7 @@ def main():
     """
     st.markdown(html_temp, unsafe_allow_html=True)
 
-    col1,col2  = st.beta_columns([2,2])
+  #  col1,col2  = st.beta_columns([2,2])
     
  #   with col2: 
     #    with st.beta_expander(" ℹ️ Information", expanded=True):
@@ -36,7 +36,7 @@ def main():
      #   '''
 
 
-    with col1:
+ #   with col1:
         st.subheader(" Find out the most suitable crop to grow in your farm 👨‍🌾")
         N = st.number_input("Nitrogen", 1,10000)
         P = st.number_input("Phosporus", 1,10000)
