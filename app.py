@@ -33,7 +33,7 @@ def main():
   #      '''
         ## How does it work ❓ 
    #     Complete all the parameters and the machine learning model will predict the most suitable crops to grow in a particular farm based on various parameters
-        '''
+     #   '''
 
 
     with col1:
